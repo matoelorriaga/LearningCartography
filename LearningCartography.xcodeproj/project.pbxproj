@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E0237554DEB67B556358A2 /* Pods_LearningCartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3FA12CAFC9B56A286D26F7 /* Pods_LearningCartography.framework */; };
+		90141A861DD2979D00156FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90141A851DD2979D00156FCA /* AppDelegate.swift */; };
+		90141A881DD2979D00156FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90141A871DD2979D00156FCA /* ViewController.swift */; };
+		90141A8D1DD2979D00156FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90141A8C1DD2979D00156FCA /* Assets.xcassets */; };
+		90141A981DD2992D00156FCA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90141A971DD2992D00156FCA /* Default-568h@2x.png */; };
+		90D3AB011DD2C2DC00C65373 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3AB001DD2C2DC00C65373 /* TableViewController.swift */; };
+		90D3AB031DD2C2F900C65373 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3AB021DD2C2F900C65373 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E3FA12CAFC9B56A286D26F7 /* Pods_LearningCartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningCartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90141A821DD2979D00156FCA /* LearningCartography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCartography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90141A851DD2979D00156FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90141A871DD2979D00156FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90141A8C1DD2979D00156FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90141A911DD2979D00156FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90141A971DD2992D00156FCA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		90D3AB001DD2C2DC00C65373 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		90D3AB021DD2C2F900C65373 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E772A8976E6545313B164ECB /* Pods-LearningCartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningCartography.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningCartography/Pods-LearningCartography.release.xcconfig"; sourceTree = "<group>"; };
+		F389A94369E9DDC2EDE4B7E3 /* Pods-LearningCartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningCartography.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningCartography/Pods-LearningCartography.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90141A7F1DD2979D00156FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E0237554DEB67B556358A2 /* Pods_LearningCartography.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2FB301CCBA3F1422C308A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3FA12CAFC9B56A286D26F7 /* Pods_LearningCartography.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90141A791DD2979D00156FCA = {
+			isa = PBXGroup;
+			children = (
+				90141A841DD2979D00156FCA /* LearningCartography */,
+				90141A831DD2979D00156FCA /* Products */,
+				91508C25B4764E6EA95DA822 /* Pods */,
+				0E2FB301CCBA3F1422C308A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90141A831DD2979D00156FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90141A821DD2979D00156FCA /* LearningCartography.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90141A841DD2979D00156FCA /* LearningCartography */ = {
+			isa = PBXGroup;
+			children = (
+				90141A851DD2979D00156FCA /* AppDelegate.swift */,
+				90141A871DD2979D00156FCA /* ViewController.swift */,
+				90D3AB001DD2C2DC00C65373 /* TableViewController.swift */,
+				90D3AB021DD2C2F900C65373 /* TableViewCell.swift */,
+				90141A8C1DD2979D00156FCA /* Assets.xcassets */,
+				90141A971DD2992D00156FCA /* Default-568h@2x.png */,
+				90141A911DD2979D00156FCA /* Info.plist */,
+			);
+			path = LearningCartography;
+			sourceTree = "<group>";
+		};
+		91508C25B4764E6EA95DA822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F389A94369E9DDC2EDE4B7E3 /* Pods-LearningCartography.debug.xcconfig */,
+				E772A8976E6545313B164ECB /* Pods-LearningCartography.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90141A811DD2979D00156FCA /* LearningCartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90141A941DD2979D00156FCA /* Build configuration list for PBXNativeTarget "LearningCartography" */;
+			buildPhases = (
+				CF725B31F5291357B6339AB6 /* [CP] Check Pods Manifest.lock */,
+				90141A7E1DD2979D00156FCA /* Sources */,
+				90141A7F1DD2979D00156FCA /* Frameworks */,
+				90141A801DD2979D00156FCA /* Resources */,
+				784761757C78E5B7DB66EBA4 /* [CP] Embed Pods Frameworks */,
+				90E2C16CDADBAD9AB1034840 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningCartography;
+			productName = LearningCartography;
+			productReference = 90141A821DD2979D00156FCA /* LearningCartography.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90141A7A1DD2979D00156FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = melorriaga;
+				TargetAttributes = {
+					90141A811DD2979D00156FCA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K2RR2SL97M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90141A7D1DD2979D00156FCA /* Build configuration list for PBXProject "LearningCartography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90141A791DD2979D00156FCA;
+			productRefGroup = 90141A831DD2979D00156FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90141A811DD2979D00156FCA /* LearningCartography */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90141A801DD2979D00156FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90141A8D1DD2979D00156FCA /* Assets.xcassets in Resources */,
+				90141A981DD2992D00156FCA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		784761757C78E5B7DB66EBA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningCartography/Pods-LearningCartography-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E2C16CDADBAD9AB1034840 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningCartography/Pods-LearningCartography-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF725B31F5291357B6339AB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90141A7E1DD2979D00156FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90141A881DD2979D00156FCA /* ViewController.swift in Sources */,
+				90D3AB031DD2C2F900C65373 /* TableViewCell.swift in Sources */,
+				90D3AB011DD2C2DC00C65373 /* TableViewController.swift in Sources */,
+				90141A861DD2979D00156FCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90141A921DD2979D00156FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90141A931DD2979D00156FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90141A951DD2979D00156FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F389A94369E9DDC2EDE4B7E3 /* Pods-LearningCartography.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningCartography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningCartography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90141A961DD2979D00156FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E772A8976E6545313B164ECB /* Pods-LearningCartography.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningCartography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningCartography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90141A7D1DD2979D00156FCA /* Build configuration list for PBXProject "LearningCartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90141A921DD2979D00156FCA /* Debug */,
+				90141A931DD2979D00156FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90141A941DD2979D00156FCA /* Build configuration list for PBXNativeTarget "LearningCartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90141A951DD2979D00156FCA /* Debug */,
+				90141A961DD2979D00156FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90141A7A1DD2979D00156FCA /* Project object */;
+}
