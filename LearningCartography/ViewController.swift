@@ -16,29 +16,51 @@ class ViewController: UIViewController {
         
         title = "Learning Cartography"
         
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = .yellow
         
         let box = UIView()
-        view.addSubview(box)
+        box.backgroundColor = .cyan
         
-        box.backgroundColor = UIColor.cyan
-        constrain(view, box) { view, box in
-            box.top == topLayoutGuideCartography + 10
-            box.left == view.left + 10
-            box.right == view.right - 10
-            box.bottom == view.bottom - 10
-        }
+        let header = UIImageView()
+        header.image = UIImage(named: "fractal")
+        
+        let logo = UIImageView()
+        logo.image = UIImage(named: "CABJ")
+        logo.contentMode = .scaleAspectFit
         
         let button = UIButton()
         button.setTitle("Go To TableView", for: .normal)
-        button.backgroundColor = UIColor.red
+        button.backgroundColor = .red
+        
+        view.addSubview(box)
+        view.addSubview(header)
+        view.addSubview(logo)
         view.addSubview(button)
+        
+        constrain(view, box) { view, box in
+            box.top == topLayoutGuideCartography + 10
+            box.right == view.right - 10
+            box.bottom == view.bottom - 10
+            box.left == view.left + 10
+        }
+        
+        constrain(box, header) { box, header in
+            header.height == box.height / 4
+            header.top == box.top
+            header.right == box.right
+            header.left == box.left
+        }
+        
+        constrain(header, logo) { header, logo in
+            logo.height == header.height
+            logo.center == header.center
+        }
         
         constrain(box, button) { box, button in
             button.height == 50
+            button.right == box.right
             button.bottom == box.bottom
             button.left == box.left
-            button.right == box.right
         }
         
         button.addTarget(self, action: #selector(onButtonClick(button:)), for: .touchUpInside)

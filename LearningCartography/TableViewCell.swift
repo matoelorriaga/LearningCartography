@@ -22,22 +22,22 @@ class TableViewCell: UITableViewCell {
         
         contentView.addSubview(customImageView)
         contentView.addSubview(customTextLabel)
+        
+        constrain(contentView, customImageView, customTextLabel) { contentView, customImageView, customTextLabel in
+            customImageView.width == 80
+            customImageView.height == 80
+            customImageView.top == contentView.top + 10
+            customImageView.left == contentView.left + 10
+            
+            customTextLabel.top == contentView.top
+            customTextLabel.right == contentView.right - 10
+            customTextLabel.bottom == contentView.bottom
+            customTextLabel.left == customImageView.right + 10
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func layoutSubviews() {
-        constrain(contentView, customImageView, customTextLabel) { contentView, customImageView, customTextLabel in
-            customImageView.width == contentView.width / 4
-            customImageView.top == contentView.top + 10
-            customImageView.bottom == contentView.bottom - 10
-            customImageView.left == contentView.left + 10
-            customTextLabel.left == customImageView.right + 10
-            customTextLabel.right == contentView.right - 10
-            customTextLabel.top == contentView.top
-            customTextLabel.bottom == contentView.bottom
-        }
-    }
 }
